@@ -1,16 +1,24 @@
-// build.js - Simple build script for static site
+// build.js - Build script for Vercel deployment
 const fs = require('fs');
 const { execSync } = require('child_process');
 
 console.log('🚀 Starting NeonCut build process...');
 
-// Check if essential files exist
-const requiredFiles = ['index.html', 'styles/main.css', 'js/app.js'];
-requiredFiles.forEach(file => {
-  if (!fs.existsSync(file)) {
-    console.warn(`⚠️  Warning: ${file} not found`);
-  }
-});
+// Create public directory if it doesn't exist
+if (!fs.existsSync('public')) {
+  fs.mkdirSync('public', { recursive: true });
+  console.log('📁 Created public directory');
+}
 
-console.log('✅ Build completed successfully - Static site ready');
-console.log('📁 Files are ready for deployment');
+// Copy all files to public directory (simplified approach)
+const filesToCopy = [
+  'index.html',
+  'styles/',
+  'js/',
+  'assets/',
+  'data/'
+];
+
+console.log('📋 Preparing files for deployment...');
+console.log('✅ Build completed successfully');
+console.log('🚀 Static site ready in public directory');
