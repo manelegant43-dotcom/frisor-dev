@@ -1,0 +1,423 @@
+{
+  "currentUser": {
+    "id": 1001,
+    "profile": {
+      "firstName": "Marcus",
+      "lastName": "Andersson",
+      "displayName": "Marcus A",
+      "email": "marcus.andersson@example.com",
+      "phone": "+46 70 123 45 67",
+      "avatar": "assets/images/users/marcus-andersson.jpg",
+      "coverImage": "assets/images/users/marcus-cover.jpg",
+      "birthDate": "1990-05-15",
+      "gender": "male",
+      "preferredLanguage": "sv",
+      "communicationPreferences": {
+        "email": true,
+        "sms": true,
+        "push": true,
+        "newsletter": false
+      }
+    },
+    "address": {
+      "street": "Sveavägen 123",
+      "city": "Stockholm",
+      "postalCode": "113 50",
+      "country": "Sverige",
+      "coordinates": {
+        "lat": 59.3384,
+        "lng": 18.0627
+      },
+      "type": "home",
+      "isPrimary": true
+    },
+    "hairProfile": {
+      "hairType": "straight",
+      "hairThickness": "medium",
+      "hairDensity": "high",
+      "scalpCondition": "normal",
+      "faceShape": "oval",
+      "currentColor": "brun",
+      "naturalColor": "brun",
+      "hairConcerns": ["frizzy", "dryness"],
+      "allergies": [],
+      "preferredStyles": ["modern", "professional"],
+      "stylingHabits": {
+        "heatStyling": "occasionally",
+        "hairWashing": "every_other_day",
+        "productsUsed": ["shampoo", "conditioner", "styling_cream"]
+      },
+      "measurements": {
+        "hairLength": "medium",
+        "faceWidth": 14.5,
+        "faceLength": 21.0,
+        "lastAnalysis": "2024-01-10T14:30:00Z"
+      }
+    },
+    "preferences": {
+      "favoriteSalons": [1, 3],
+      "favoriteStylists": [1001, 3001],
+      "preferredPriceRange": "medium",
+      "distancePreference": 5,
+      "accessibilityNeeds": [],
+      "specialRequirements": [],
+      "notificationSettings": {
+        "bookingReminders": true,
+        "promotions": false,
+        "newSalons": true,
+        "styleRecommendations": true
+      }
+    },
+    "membership": {
+      "tier": "premium",
+      "joined": "2023-06-15T10:00:00Z",
+      "expires": "2024-06-15T10:00:00Z",
+      "points": 1250,
+      "loyaltyLevel": "gold",
+      "benefits": [
+        "priority_booking",
+        "exclusive_discounts",
+        "free_styling_products",
+        "premium_support"
+      ]
+    },
+    "paymentMethods": [
+      {
+        "id": "pm_1",
+        "type": "card",
+        "brand": "visa",
+        "last4": "4242",
+        "expiryMonth": 12,
+        "expiryYear": 2025,
+        "isDefault": true,
+        "added": "2023-06-15T10:05:00Z"
+      },
+      {
+        "id": "pm_2",
+        "type": "swish",
+        "phone": "+46 70 123 45 67",
+        "isDefault": false,
+        "added": "2023-08-20T14:22:00Z"
+      }
+    ],
+    "statistics": {
+      "totalBookings": 24,
+      "completedBookings": 22,
+      "cancelledBookings": 2,
+      "totalSpent": 12500,
+      "averageRating": 4.8,
+      "favoriteCategory": "herrklippning",
+      "lastBooking": "2024-01-08T16:00:00Z",
+      "memberSinceDays": 214
+    }
+  },
+  "bookingHistory": [
+    {
+      "id": "B_202401081600",
+      "salonId": 1,
+      "salonName": "Neon Cut Studio",
+      "stylistId": 1001,
+      "stylistName": "Marcus Lindgren",
+      "treatmentId": 101,
+      "treatmentName": "Herrklippning Premium",
+      "date": "2024-01-08",
+      "time": "16:00",
+      "duration": 45,
+      "price": 495,
+      "status": "completed",
+      "rating": 5,
+      "review": "Perfekt klippning som alltid! Marcus är en riktig mästare på fade.",
+      "images": ["assets/images/bookings/booking-20240108-1.jpg"],
+      "createdAt": "2024-01-05T14:30:00Z",
+      "updatedAt": "2024-01-08T17:00:00Z"
+    },
+    {
+      "id": "B_202312201400",
+      "salonId": 3,
+      "salonName": "Hair Lab Stockholm",
+      "stylistId": 3001,
+      "stylistName": "Lisa Chen",
+      "treatmentId": 501,
+      "treatmentName": "Håranalys & Konsultation",
+      "date": "2023-12-20",
+      "time": "14:00",
+      "duration": 30,
+      "price": 295,
+      "status": "completed",
+      "rating": 5,
+      "review": "Otroligt intressant analys! Lisa gav mig verkligen bra råd för mitt hår.",
+      "images": [],
+      "createdAt": "2023-12-15T09:15:00Z",
+      "updatedAt": "2023-12-20T15:30:00Z"
+    },
+    {
+      "id": "B_202311151100",
+      "salonId": 1,
+      "salonName": "Neon Cut Studio",
+      "stylistId": 1001,
+      "stylistName": "Marcus Lindgren",
+      "treatmentId": 103,
+      "treatmentName": "Fade Master",
+      "date": "2023-11-15",
+      "time": "11:00",
+      "duration": 50,
+      "price": 550,
+      "status": "completed",
+      "rating": 5,
+      "review": "Bästa faden hittills! Verkligen värt pengarna.",
+      "images": ["assets/images/bookings/booking-20231115-1.jpg"],
+      "createdAt": "2023-11-10T16:45:00Z",
+      "updatedAt": "2023-11-15T12:30:00Z"
+    },
+    {
+      "id": "B_202310051300",
+      "salonId": 2,
+      "salonName": "Urban Fade Barbers",
+      "stylistId": 2001,
+      "stylistName": "David Andersson",
+      "treatmentId": 202,
+      "treatmentName": "Fade & Skägg",
+      "date": "2023-10-05",
+      "time": "13:00",
+      "duration": 45,
+      "price": 450,
+      "status": "completed",
+      "rating": 4,
+      "review": "Bra klippning men lite väntetid. David är duktig!",
+      "images": [],
+      "createdAt": "2023-10-01T11:20:00Z",
+      "updatedAt": "2023-10-05T14:15:00Z"
+    }
+  ],
+  "upcomingBookings": [
+    {
+      "id": "B_202401221430",
+      "salonId": 1,
+      "salonName": "Neon Cut Studio",
+      "stylistId": 1001,
+      "stylistName": "Marcus Lindgren",
+      "treatmentId": 101,
+      "treatmentName": "Herrklippning Premium",
+      "date": "2024-01-22",
+      "time": "14:30",
+      "duration": 45,
+      "price": 495,
+      "status": "confirmed",
+      "reminderSent": false,
+      "notes": "Fortsätt med samma fade som förra gången",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "favorites": {
+    "salons": [
+      {
+        "salonId": 1,
+        "added": "2023-06-20T14:30:00Z",
+        "notes": "Bästa kvaliteten i stan"
+      },
+      {
+        "salonId": 3,
+        "added": "2023-12-20T15:30:00Z",
+        "notes": "Bra för speciella behandlingar"
+      }
+    ],
+    "stylists": [
+      {
+        "stylistId": 1001,
+        "salonId": 1,
+        "added": "2023-06-20T14:35:00Z",
+        "notes": "Expert på fade"
+      },
+      {
+        "stylistId": 3001,
+        "salonId": 3,
+        "added": "2023-12-20T15:35:00Z",
+        "notes": "Grym på håranalys"
+      }
+    ],
+    "treatments": [
+      {
+        "treatmentId": 101,
+        "added": "2023-06-20T14:40:00Z",
+        "notes": "Standard klippning"
+      },
+      {
+        "treatmentId": 103,
+        "added": "2023-11-15T12:35:00Z",
+        "notes": "När jag vill ha något extra"
+      }
+    ]
+  },
+  "notifications": [
+    {
+      "id": "N_202401151030",
+      "type": "booking_reminder",
+      "title": "Påminnelse om bokning",
+      "message": "Du har en bokning imorgon kl 14:30 på Neon Cut Studio",
+      "relatedId": "B_202401221430",
+      "read": false,
+      "createdAt": "2024-01-15T10:30:00Z",
+      "expiresAt": "2024-01-22T14:30:00Z"
+    },
+    {
+      "id": "N_202401101400",
+      "type": "promotion",
+      "title": "20% rabatt denna vecka!",
+      "message": "Få 20% rabatt på alla klippningar hos Hair Lab Stockholm",
+      "relatedId": "P_20240110",
+      "read": true,
+      "createdAt": "2024-01-10T14:00:00Z",
+      "expiresAt": "2024-01-17T23:59:00Z"
+    },
+    {
+      "id": "N_202401050900",
+      "type": "review_reminder",
+      "title": "Betygsätt din senaste bokning",
+      "message": "Hur var din upplevelse på Neon Cut Studio?",
+      "relatedId": "B_202401081600",
+      "read": true,
+      "createdAt": "2024-01-05T09:00:00Z",
+      "expiresAt": "2024-01-12T23:59:00Z"
+    }
+  ],
+  "aiAnalysisHistory": [
+    {
+      "id": "AI_202401101430",
+      "date": "2024-01-10T14:30:00Z",
+      "inputImage": "assets/images/ai-analysis/input-20240110.jpg",
+      "results": {
+        "faceShape": "oval",
+        "hairType": "straight",
+        "hairDensity": "high",
+        "recommendedStyles": ["textured_crop", "side_part", "modern_fade"],
+        "suitabilityScores": {
+          "textured_crop": 92,
+          "side_part": 85,
+          "modern_fade": 88,
+          "buzz_cut": 45,
+          "long_layers": 30
+        },
+        "productRecommendations": [
+          {
+            "type": "styling_cream",
+            "brand": "American Crew",
+            "product": "Fiber Cream",
+            "reason": "Ger textur och hold utan att vara klibbig"
+          },
+          {
+            "type": "shampoo",
+            "brand": "Redken",
+            "product": "Volume Injection",
+            "reason": "Ger volym till rakt hår"
+          }
+        ]
+      },
+      "saved": true
+    },
+    {
+      "id": "AI_202312010930",
+      "date": "2023-12-01T09:30:00Z",
+      "inputImage": "assets/images/ai-analysis/input-20231201.jpg",
+      "results": {
+        "faceShape": "oval",
+        "hairType": "straight",
+        "hairDensity": "high",
+        "recommendedStyles": ["classic_scissor_cut", "textured_crop"],
+        "suitabilityScores": {
+          "classic_scissor_cut": 88,
+          "textured_crop": 85,
+          "modern_fade": 82,
+          "side_part": 78
+        },
+        "productRecommendations": [
+          {
+            "type": "pomade",
+            "brand": "Suavecito",
+            "product": "Firme Hold",
+            "reason": "Bra för klassiska stilar"
+          }
+        ]
+      },
+      "saved": false
+    }
+  ],
+  "loyaltyProgram": {
+    "points": 1250,
+    "level": "gold",
+    "nextLevel": "platinum",
+    "pointsToNextLevel": 250,
+    "pointsHistory": [
+      {
+        "date": "2024-01-08",
+        "action": "booking_completed",
+        "points": 50,
+        "description": "Bokning på Neon Cut Studio"
+      },
+      {
+        "date": "2023-12-20",
+        "action": "review_submitted",
+        "points": 25,
+        "description": "Recension för Hair Lab Stockholm"
+      },
+      {
+        "date": "2023-11-15",
+        "action": "booking_completed",
+        "points": 50,
+        "description": "Bokning på Neon Cut Studio"
+      }
+    ],
+    "rewards": [
+      {
+        "id": "R_001",
+        "name": "Gratis klippning",
+        "pointsRequired": 1000,
+        "description": "En gratis herrklippning på valfri salon",
+        "claimed": false,
+        "validUntil": "2024-12-31"
+      },
+      {
+        "id": "R_002",
+        "name": "20% rabatt",
+        "pointsRequired": 500,
+        "description": "20% rabatt på nästa bokning",
+        "claimed": true,
+        "claimedAt": "2023-10-05",
+        "validUntil": "2023-12-31"
+      }
+    ]
+  },
+  "supportTickets": [
+    {
+      "id": "T_202312151030",
+      "subject": "Avbokningsproblem",
+      "category": "booking",
+      "status": "resolved",
+      "priority": "medium",
+      "createdAt": "2023-12-15T10:30:00Z",
+      "updatedAt": "2023-12-16T14:20:00Z",
+      "messages": [
+        {
+          "sender": "user",
+          "message": "Jag försöker avboka min bokning men får ett felmeddelande",
+          "timestamp": "2023-12-15T10:30:00Z"
+        },
+        {
+          "sender": "support",
+          "message": "Hej Marcus! Vi har löst problemet nu. Du kan avboka via appen.",
+          "timestamp": "2023-12-16T14:20:00Z"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "lastLogin": "2024-01-15T10:00:00Z",
+    "accountCreated": "2023-06-15T10:00:00Z",
+    "dataVersion": "1.2.0",
+    "privacySettings": {
+      "profileVisible": true,
+      "reviewsVisible": true,
+      "bookingHistoryVisible": false
+    }
+  }
+}

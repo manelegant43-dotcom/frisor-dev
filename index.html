@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEONCUT - Sveriges första frisörplattform</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/neon-theme.css">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen active">
+        <div class="neon-loader">
+            <div class="neon-circle"></div>
+            <div class="loading-text">NEONCUT</div>
+            <div class="loading-subtext">Laddar revolutionen...</div>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app" class="app-container hidden">
+        <!-- Header -->
+        <header class="neon-header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-cut neon-accent"></i>
+                    <span class="logo-text">NEONCUT</span>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn neon-glow" id="locationBtn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Stockholm</span>
+                    </button>
+                    <button class="icon-btn neon-glow" id="notificationBtn">
+                        <i class="fas fa-bell"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-item active" data-screen="home">
+                <i class="fas fa-home"></i>
+                <span>Hem</span>
+            </button>
+            <button class="nav-item" data-screen="priceComparison">
+                <i class="fas fa-search-dollar"></i>
+                <span>Priser</span>
+            </button>
+            <button class="nav-item" data-screen="dropIn">
+                <i class="fas fa-bolt"></i>
+                <span>Drop-in</span>
+            </button>
+            <button class="nav-item" data-screen="homeService">
+                <i class="fas fa-car"></i>
+                <span>Hemfrisör</span>
+            </button>
+            <button class="nav-item" data-screen="aiAnalysis">
+                <i class="fas fa-robot"></i>
+                <span>AI-Analys</span>
+            </button>
+        </nav>
+
+        <!-- Screens Container -->
+        <main class="screens-container">
+            <!-- Home Screen -->
+            <section id="homeScreen" class="screen active">
+                <div class="screen-content">
+                    <!-- Hero Section -->
+                    <div class="hero-section">
+                        <h1 class="neon-title">Hitta din perfekta frisyr</h1>
+                        <p class="neon-subtitle">Revolutionerande plattform för moderna hårvårdsbehov</p>
+                    </div>
+
+                    <!-- Quick Actions Grid -->
+                    <div class="quick-actions-grid">
+                        <div class="action-card neon-card" data-action="priceComparison">
+                            <div class="action-icon">
+                                <i class="fas fa-search-dollar"></i>
+                            </div>
+                            <h3>Prisjämförelse</h3>
+                            <p>Jämför priser från 500+ frisörer</p>
+                            <div class="action-badge">Populärt</div>
+                        </div>
+
+                        <div class="action-card neon-card" data-action="dropIn">
+                            <div class="action-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3>Drop-in Nu</h3>
+                            <p>Frisörer lediga just nu</p>
+                            <div class="action-badge neon-pulse">Live</div>
+                        </div>
+
+                        <div class="action-card neon-card" data-action="homeService">
+                            <div class="action-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <h3>Hemfrisör</h3>
+                            <p>Få besök hemma</p>
+                            <div class="action-badge">Bekvämt</div>
+                        </div>
+
+                        <div class="action-card neon-card" data-action="aiAnalysis">
+                            <div class="action-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>AI-Analys</h3>
+                            <p>Personliga rekommendationer</p>
+                            <div class="action-badge">Nyhet</div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Salons -->
+                    <div class="section">
+                        <h2 class="section-title">Topp-rankade frisörer</h2>
+                        <div class="salons-grid" id="featuredSalons">
+                            <!-- Dynamically loaded -->
+                        </div>
+                    </div>
+
+                    <!-- Stats Section -->
+                    <div class="stats-section neon-card">
+                        <h3>Sveriges största frisörplattform</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="500">0</div>
+                                <div class="stat-label">Frisörer</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="10000">0</div>
+                                <div class="stat-label">Bokningar/mån</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="4.8">0</div>
+                                <div class="stat-label">Betyg</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price Comparison Screen -->
+            <section id="priceComparisonScreen" class="screen">
+                <div class="screen-content">
+                    <div class="screen-header">
+                        <h2 class="neon-title">Prisjämförelse</h2>
+                        <p class="neon-subtitle">Hitta bästa priset för din behandling</p>
+                    </div>
+
+                    <!-- Search & Filters -->
+                    <div class="search-filters neon-card">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="salonSearch" placeholder="Sök frisör, behandling eller stad...">
+                            <button class="search-btn neon-glow">Sök</button>
+                        </div>
+
+                        <div class="filters-row">
+                            <select class="filter-select" id="treatmentFilter">
+                                <option value="">Alla behandlingar</option>
+                                <option value="herrklippning">Herrklippning</option>
+                                <option value="damklippning">Damklippning</option>
+                                <option value="fade">Fade</option>
+                                <option value="barnklippning">Barnklippning</option>
+                                <option value="fargning">Färgning</option>
+                            </select>
+
+                            <select class="filter-select" id="priceFilter">
+                                <option value="">Prisintervall</option>
+                                <option value="0-200">0-200 kr</option>
+                                <option value="200-400">200-400 kr</option>
+                                <option value="400-600">400-600 kr</option>
+                                <option value="600-9999">600+ kr</option>
+                            </select>
+
+                            <select class="filter-select" id="ratingFilter">
+                                <option value="">Betyg</option>
+                                <option value="4.5">4.5+ ⭐</option>
+                                <option value="4.0">4.0+ ⭐</option>
+                                <option value="3.5">3.5+ ⭐</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="results-section">
+                        <div class="results-header">
+                            <span id="resultsCount">0</span> frisörer hittades
+                        </div>
+                        <div class="salons-list" id="salonsList">
+                            <!-- Dynamically loaded -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Drop-in Screen -->
+            <section id="dropInScreen" class="screen">
+                <div class="screen-content">
+                    <div class="screen-header">
+                        <h2 class="neon-title">Drop-in Frisörer</h2>
+                        <p class="neon-subtitle">Lediga just nu - boka direkt!</p>
+                    </div>
+
+                    <!-- Live Map -->
+                    <div class="map-container neon-card">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Live karta med tillgängliga frisörer</p>
+                            <div class="live-indicator neon-pulse">
+                                <i class="fas fa-circle"></i>
+                                Live
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Available Now List -->
+                    <div class="available-now-section">
+                        <h3 class="section-title">Tillgängliga nu <span class="live-badge neon-pulse" id="availableCount">0</span></h3>
+                        <div class="available-list" id="availableList">
+                            <!-- Dynamically loaded -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Home Service Screen -->
+            <section id="homeServiceScreen" class="screen">
+                <div class="screen-content">
+                    <div class="screen-header">
+                        <h2 class="neon-title">Hemfrisör Service</h2>
+                        <p class="neon-subtitle">Få professionell service i hemmet</p>
+                    </div>
+
+                    <!-- Booking Form -->
+                    <div class="booking-form neon-card">
+                        <div class="form-group">
+                            <label class="form-label">Din adress</label>
+                            <input type="text" class="form-input" id="homeAddress" placeholder="Ange din fullständiga adress">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Välj behandling</label>
+                            <div class="treatment-options" id="homeTreatmentOptions">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Välj datum och tid</label>
+                            <div class="datetime-selector">
+                                <input type="date" class="form-input" id="homeServiceDate">
+                                <select class="form-input" id="homeServiceTime">
+                                    <option value="">Välj tid</option>
+                                    <!-- Times loaded dynamically -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <button class="btn-primary neon-glow" id="bookHomeServiceBtn">
+                            Boka Hemfrisör
+                        </button>
+                    </div>
+
+                    <!-- Available Home Stylists -->
+                    <div class="stylists-section">
+                        <h3 class="section-title">Tillgängliga hemfrisörer</h3>
+                        <div class="stylists-list" id="homeStylistsList">
+                            <!-- Dynamically loaded -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Analysis Screen -->
+            <section id="aiAnalysisScreen" class="screen">
+                <div class="screen-content">
+                    <div class="screen-header">
+                        <h2 class="neon-title">AI Håranalys</h2>
+                        <p class="neon-subtitle">Få personliga frisyrrekommendationer</p>
+                    </div>
+
+                    <!-- Upload Section -->
+                    <div class="upload-section neon-card">
+                        <div class="upload-options">
+                            <div class="upload-option" id="takePhotoBtn">
+                                <i class="fas fa-camera"></i>
+                                <span>Ta Foto</span>
+                            </div>
+                            <div class="upload-option" id="uploadPhotoBtn">
+                                <i class="fas fa-images"></i>
+                                <span>Välj Bild</span>
+                            </div>
+                        </div>
+
+                        <div class="upload-instructions">
+                            <h4>Instruktioner för bästa resultat:</h4>
+                            <ul>
+                                <li>Ta foto framifrån med neutralt ansiktsuttryck</li>
+                                <li>Se till att håret är synligt och välbelyst</li>
+                                <li>Ingen hatt eller solglasögon</li>
+                                <li>Ansiktet ska vara i fokus</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Analysis Results -->
+                    <div class="analysis-results hidden" id="analysisResults">
+                        <div class="results-section neon-card">
+                            <h3>Analysresultat</h3>
+                            <div class="analysis-summary" id="analysisSummary">
+                                <!-- Dynamically loaded -->
+                            </div>
+                            
+                            <div class="recommendations-section">
+                                <h4>Rekommenderade frisyrer</h4>
+                                <div class="recommendations-grid" id="recommendationsGrid">
+                                    <!-- Dynamically loaded -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div id="salonDetailModal" class="modal hidden">
+        <div class="modal-content neon-card">
+            <button class="modal-close" id="closeSalonModal">&times;</button>
+            <div class="modal-body" id="salonModalBody">
+                <!-- Dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <div id="bookingModal" class="modal hidden">
+        <div class="modal-content neon-card">
+            <button class="modal-close" id="closeBookingModal">&times;</button>
+            <div class="modal-body" id="bookingModalBody">
+                <!-- Dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification System -->
+    <div id="notificationContainer" class="notification-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/ui-components.js"></script>
+    <script src="js/booking-system.js"></script>
+    <script src="js/ai-analysis.js"></script>
+    <script src="js/map-integration.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

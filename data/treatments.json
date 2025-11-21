@@ -1,0 +1,707 @@
+{
+  "categories": [
+    {
+      "id": "herrklippning",
+      "name": "Herrklippning",
+      "slug": "herrklippning",
+      "description": "Professionella klippningar för herrar med fokus på precision och modern styling",
+      "icon": "fas fa-male",
+      "color": "neon-cyan",
+      "popular": true,
+      "treatmentCount": 8,
+      "averagePrice": 350,
+      "averageDuration": 35
+    },
+    {
+      "id": "damklippning",
+      "name": "Damklippning",
+      "slug": "damklippning",
+      "description": "Skräddarsydda klippningar för damer med fokus på form, volym och personlig stil",
+      "icon": "fas fa-female",
+      "color": "neon-pink",
+      "popular": true,
+      "treatmentCount": 6,
+      "averagePrice": 550,
+      "averageDuration": 60
+    },
+    {
+      "id": "fade",
+      "name": "Fade & Moderna Klippningar",
+      "slug": "fade",
+      "description": "Trendiga fade-klippningar och moderna herrstilar med hög precision",
+      "icon": "fas fa-cut",
+      "color": "neon-blue",
+      "popular": true,
+      "treatmentCount": 5,
+      "averagePrice": 450,
+      "averageDuration": 45
+    },
+    {
+      "id": "barnklippning",
+      "name": "Barnklippning",
+      "slug": "barnklippning",
+      "description": "Roliga och trygga klippningar för barn i alla åldrar",
+      "icon": "fas fa-child",
+      "color": "neon-green",
+      "popular": false,
+      "treatmentCount": 3,
+      "averagePrice": 200,
+      "averageDuration": 20
+    },
+    {
+      "id": "fargning",
+      "name": "Färgning & Balayage",
+      "slug": "fargning",
+      "description": "Professionell hårfärgning, balayage och färgkorrigering med premiumprodukter",
+      "icon": "fas fa-palette",
+      "color": "neon-purple",
+      "popular": true,
+      "treatmentCount": 7,
+      "averagePrice": 850,
+      "averageDuration": 90
+    },
+    {
+      "id": "skaggvard",
+      "name": "Skäggvård",
+      "slug": "skaggvard",
+      "description": "Skäggtrimning, formgivning och skäggvård för perfekt skägg",
+      "icon": "fas fa-user-check",
+      "color": "neon-orange",
+      "popular": false,
+      "treatmentCount": 4,
+      "averagePrice": 200,
+      "averageDuration": 25
+    },
+    {
+      "id": "speciaalbehandlingar",
+      "name": "Specialbehandlingar",
+      "slug": "speciaalbehandlingar",
+      "description": "Avancerade hårbehandlingar, håranalys och skräddarsydda lösningar",
+      "icon": "fas fa-flask",
+      "color": "neon-yellow",
+      "popular": false,
+      "treatmentCount": 5,
+      "averagePrice": 600,
+      "averageDuration": 50
+    }
+  ],
+  "treatments": [
+    {
+      "id": 101,
+      "name": "Herrklippning Premium",
+      "slug": "herrklippning-premium",
+      "category": "herrklippning",
+      "subcategory": "premium",
+      "price": 495,
+      "originalPrice": 595,
+      "duration": 45,
+      "description": "Premium herrklippning med djupgående konsultation, professionell tvätt, precisionsklippning baserad på ansiktsform, avancerad styling och personliga eftervårdsråd.",
+      "shortDescription": "Premium klippning med full service",
+      "features": [
+        "Djupgående hår- och ansiktsanalys",
+        "Luftfuktigande hårtvätt",
+        "Precisionsklippning efter ansiktsform",
+        "Avancerad styling med premiumprodukter",
+        "Personliga eftervårdsråd",
+        "Gratis touch-up inom 2 veckor"
+      ],
+      "benefits": [
+        "Skräddarsydd efter dina behov",
+        "Långvarigt resultat",
+        "Professionell styling",
+        "Hälsosammare hår"
+      ],
+      "suitableFor": [
+        "Viktiga tillställningar",
+        "Professionella sammanhang",
+        "Byte av stil",
+        "Specifika hårproblem"
+      ],
+      "stylistLevel": "senior",
+      "popularity": 95,
+      "discount": {
+        "active": true,
+        "percentage": 17,
+        "validUntil": "2024-02-15"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/herrklippning-premium-1.jpg",
+          "alt": "Herrklippning Premium resultat"
+        },
+        {
+          "url": "assets/images/treatments/herrklippning-premium-2.jpg",
+          "alt": "Herrklippning Premium process"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 156,
+        "satisfactionRate": 98,
+        "repeatRate": 75,
+        "averageRating": 4.9
+      }
+    },
+    {
+      "id": 102,
+      "name": "Herrklippning Standard",
+      "slug": "herrklippning-standard",
+      "category": "herrklippning",
+      "subcategory": "standard",
+      "price": 350,
+      "originalPrice": 395,
+      "duration": 35,
+      "description": "Professionell herrklippning för vardagen inklusive konsultation, hårtvätt, precisionsklippning och enkel styling med kvalitetsprodukter.",
+      "shortDescription": "Professionell klippning för vardagen",
+      "features": [
+        "Konsultation och håranalys",
+        "Grundläggande hårtvätt",
+        "Precisionsklippning",
+        "Enkel styling",
+        "Eftervårdsråd"
+      ],
+      "benefits": [
+        "Prisvärd kvalitet",
+        "Snabbt och effektivt",
+        "Professionellt resultat",
+        "Lätt att underhålla"
+      ],
+      "suitableFor": [
+        "Vardagsklippning",
+        "Underhåll mellan premiumklippningar",
+        "Budgetmedvetna kunder"
+      ],
+      "stylistLevel": "medium",
+      "popularity": 88,
+      "discount": {
+        "active": true,
+        "percentage": 11,
+        "validUntil": "2024-02-28"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/herrklippning-standard-1.jpg",
+          "alt": "Herrklippning Standard resultat"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 234,
+        "satisfactionRate": 95,
+        "repeatRate": 65,
+        "averageRating": 4.7
+      }
+    },
+    {
+      "id": 103,
+      "name": "Express Herrklippning",
+      "slug": "express-herrklippning",
+      "category": "herrklippning",
+      "subcategory": "express",
+      "price": 250,
+      "originalPrice": 250,
+      "duration": 20,
+      "description": "Snabb och effektiv klippning för den med ont om tid. Perfekt för att hålla stilen mellan större klippningar.",
+      "shortDescription": "Snabbklippning för upptagna",
+      "features": [
+        "Snabb konsultation",
+        "Effektiv klippning",
+        "Enkel styling",
+        "Drop-in vänlig"
+      ],
+      "benefits": [
+        "Mycket snabb",
+        "Prisvärd",
+        "Ingen bokning krävs",
+        "Perfekt för underhåll"
+      ],
+      "suitableFor": [
+        "Snabb fix",
+        "Drop-in kunder",
+        "Budget",
+        "Tidspress"
+      ],
+      "stylistLevel": "junior",
+      "popularity": 72,
+      "discount": {
+        "active": false,
+        "percentage": 0,
+        "validUntil": null
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/express-herrklippning-1.jpg",
+          "alt": "Express Herrklippning process"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 189,
+        "satisfactionRate": 90,
+        "repeatRate": 55,
+        "averageRating": 4.3
+      }
+    },
+    {
+      "id": 201,
+      "name": "Damklippning Luxury",
+      "slug": "damklippning-luxury",
+      "category": "damklippning",
+      "subcategory": "luxury",
+      "price": 795,
+      "originalPrice": 895,
+      "duration": 75,
+      "description": "Lyxig damklippning med djupgående håranalys, professionell tvätt med luftfuktigande produkter, precisionsklippning baserad på ansiktsform och livsstil, avancerad styling och skyddande behandling.",
+      "shortDescription": "Lyxig klippning med full service",
+      "features": [
+        "Djupgående hår- och skalpanalys",
+        "Luftfuktigande tvätt med premiumprodukter",
+        "Precisionsklippning efter ansiktsform",
+        "Avancerad stylingteknik",
+        "Skyddande hårbehandling",
+        "Personliga eftervårdsråd"
+      ],
+      "benefits": [
+        "Skräddarsydd efter dina behov",
+        "Extra skydd för håret",
+        "Långvarigt och hälsosamt resultat",
+        "Professionell styling som håller"
+      ],
+      "suitableFor": [
+        "Speciella tillfällen",
+        "Byte av image",
+        "Hår i behov av extra omvårdnad",
+        "Långvarigt resultat"
+      ],
+      "stylistLevel": "senior",
+      "popularity": 92,
+      "discount": {
+        "active": true,
+        "percentage": 11,
+        "validUntil": "2024-02-20"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/damklippning-luxury-1.jpg",
+          "alt": "Damklippning Luxury resultat"
+        },
+        {
+          "url": "assets/images/treatments/damklippning-luxury-2.jpg",
+          "alt": "Damklippning Luxury process"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 128,
+        "satisfactionRate": 99,
+        "repeatRate": 80,
+        "averageRating": 4.9
+      }
+    },
+    {
+      "id": 202,
+      "name": "Damklippning Expert",
+      "slug": "damklippning-expert",
+      "category": "damklippning",
+      "subcategory": "expert",
+      "price": 650,
+      "originalPrice": 750,
+      "duration": 60,
+      "description": "Expertklippning baserad på håranalys med fokus på att framhäva dina bästa sidor. Inkluderar tvätt, behandling och professionell styling.",
+      "shortDescription": "Expertklippning med håranalys",
+      "features": [
+        "Håranalys och konsultation",
+        "Skräddarsydd klippning",
+        "Luftfuktigande behandling",
+        "Professionell styling",
+        "Eftervårdsråd"
+      ],
+      "benefits": [
+        "Anpassad efter ditt hår",
+        "Hälsosammare hår",
+        "Professionellt resultat",
+        "Lätt att underhålla"
+      ],
+      "suitableFor": [
+        "Regelbunden klippning",
+        "Byte av stil",
+        "Specifika hårbehov",
+        "Professionella sammanhang"
+      ],
+      "stylistLevel": "senior",
+      "popularity": 85,
+      "discount": {
+        "active": true,
+        "percentage": 13,
+        "validUntil": "2024-03-01"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/damklippning-expert-1.jpg",
+          "alt": "Damklippning Expert resultat"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 167,
+        "satisfactionRate": 97,
+        "repeatRate": 70,
+        "averageRating": 4.8
+      }
+    },
+    {
+      "id": 203,
+      "name": "Damklippning Basic",
+      "slug": "damklippning-basic",
+      "category": "damklippning",
+      "subcategory": "basic",
+      "price": 249,
+      "originalPrice": 299,
+      "duration": 30,
+      "description": "Enkel och prisvärd damklippning för vardagsbruk. Inkluderar konsultation, tvätt, klippning och enkel styling.",
+      "shortDescription": "Prisvärd klippning för vardagen",
+      "features": [
+        "Grundläggande konsultation",
+        "Hårtvätt",
+        "Klippning",
+        "Enkel styling"
+      ],
+      "benefits": [
+        "Prisvärd",
+        "Snabbt",
+        "Professionellt resultat",
+        "Perfekt för underhåll"
+      ],
+      "suitableFor": [
+        "Vardagsklippning",
+        "Budget",
+        "Snabb fix",
+        "Tocmaklippning"
+      ],
+      "stylistLevel": "medium",
+      "popularity": 78,
+      "discount": {
+        "active": true,
+        "percentage": 17,
+        "validUntil": "2024-02-25"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/damklippning-basic-1.jpg",
+          "alt": "Damklippning Basic resultat"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 145,
+        "satisfactionRate": 92,
+        "repeatRate": 60,
+        "averageRating": 4.5
+      }
+    },
+    {
+      "id": 301,
+      "name": "Fade Master",
+      "slug": "fade-master",
+      "category": "fade",
+      "subcategory": "premium",
+      "price": 550,
+      "originalPrice": 650,
+      "duration": 50,
+      "description": "Perfekt fade med högsta precision från skin fade till low fade. Inkluderar rakning, vax/styling och eftervård med gratis touch-up inom en vecka.",
+      "shortDescription": "Perfekt fade med hög precision",
+      "features": [
+        "Precisionsfade teknik",
+        "Rakning med varm handduk",
+        "Professionell vax/styling",
+        "Eftervårdsbehandling",
+        "Gratis touch-up inom 1 vecka"
+      ],
+      "benefits": [
+        "Skarp och ren fade",
+        "Långvarigt resultat",
+        "Professionell finish",
+        "Hudvänlig rakning"
+      ],
+      "suitableFor": [
+        "Viktiga tillställningar",
+        "Perfektionister",
+        "Trendmedvetna",
+        "Specifika fade-önskemål"
+      ],
+      "stylistLevel": "senior",
+      "popularity": 96,
+      "discount": {
+        "active": true,
+        "percentage": 15,
+        "validUntil": "2024-02-18"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/fade-master-1.jpg",
+          "alt": "Fade Master resultat"
+        },
+        {
+          "url": "assets/images/treatments/fade-master-2.jpg",
+          "alt": "Fade Master teknik"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 203,
+        "satisfactionRate": 98,
+        "repeatRate": 82,
+        "averageRating": 4.9
+      }
+    },
+    {
+      "id": 302,
+      "name": "Fade & Skägg",
+      "slug": "fade-skagg",
+      "category": "fade",
+      "subcategory": "standard",
+      "price": 450,
+      "originalPrice": 500,
+      "duration": 45,
+      "description": "Komplett behandling med fade klippning och skäggtrimning inklusive varm handduk, after-shave och styling för en helt färdig look.",
+      "shortDescription": "Fade med skäggtrimning",
+      "features": [
+        "Fade klippning",
+        "Skäggtrimning och formgivning",
+        "Varm handduk",
+        "After-shave behandling",
+        "Komplett styling"
+      ],
+      "benefits": [
+        "Komplett herruppdatering",
+        "Skägg i perfekt form",
+        "Avslappnande behandling",
+        "Professionell finish"
+      ],
+      "suitableFor": [
+        "Helt look",
+        "Skäggbärare",
+        "Speciella tillfällen",
+        "Regelbunden underhåll"
+      ],
+      "stylistLevel": "medium",
+      "popularity": 89,
+      "discount": {
+        "active": true,
+        "percentage": 10,
+        "validUntil": "2024-03-05"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/fade-skagg-1.jpg",
+          "alt": "Fade & Skägg resultat"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 178,
+        "satisfactionRate": 96,
+        "repeatRate": 75,
+        "averageRating": 4.8
+      }
+    },
+    {
+      "id": 401,
+      "name": "Balayage Master",
+      "slug": "balayage-master",
+      "category": "fargning",
+      "subcategory": "premium",
+      "price": 1295,
+      "originalPrice": 1495,
+      "duration": 120,
+      "description": "Avancerad balayage teknik för naturliga och dimensionella resultat. Inkluderar Olaplex behandling för att stärka håret under processen, färgskydd och eftervårdsprodukter för att bevara färgen.",
+      "shortDescription": "Avancerad balayage med Olaplex",
+      "features": [
+        "Avancerad balayage teknik",
+        "Olaplex behandling",
+        "Färgskydd",
+        "Eftervårdsprodukter",
+        "Personlig färganalys"
+      ],
+      "benefits": [
+        "Naturligt och dimensionellt resultat",
+        "Stärkt och hälsosamt hår",
+        "Långvarig färg",
+        "Skräddarsydd färglösning"
+      ],
+      "suitableFor": [
+        "Naturliga highlights",
+        "Dimensionellt hår",
+        "Färgkänsligt hår",
+        "Speciella tillfällen"
+      ],
+      "stylistLevel": "expert",
+      "popularity": 94,
+      "discount": {
+        "active": true,
+        "percentage": 13,
+        "validUntil": "2024-02-22"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/balayage-master-1.jpg",
+          "alt": "Balayage Master resultat"
+        },
+        {
+          "url": "assets/images/treatments/balayage-master-2.jpg",
+          "alt": "Balayage Master process"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 89,
+        "satisfactionRate": 99,
+        "repeatRate": 85,
+        "averageRating": 5.0
+      }
+    },
+    {
+      "id": 501,
+      "name": "Håranalys & Konsultation",
+      "slug": "haranalys-konsultation",
+      "category": "speciaalbehandlingar",
+      "subcategory": "analys",
+      "price": 295,
+      "originalPrice": 395,
+      "duration": 30,
+      "description": "Djupgående håranalys med mikroskop och professionell konsultation för att identifiera hårets behov och skapa en optimal vårdsplan.",
+      "shortDescription": "Vetenskaplig håranalys med mikroskop",
+      "features": [
+        "Mikroskopanalys av hår och hårbotten",
+        "Hälsokontroll och rådgivning",
+        "Personlig vårdsplan",
+        "Produktrekommendationer",
+        "Uppföljningsplan"
+      ],
+      "benefits": [
+        "Förstå ditt hårs behov",
+        "Rätt produkter för dig",
+        "Förebygga hårproblem",
+        "Långsiktig hårhälsa"
+      ],
+      "suitableFor": [
+        "Hårproblem",
+        "Produktval",
+        "Håravfall",
+        "Preventiv vård"
+      ],
+      "stylistLevel": "expert",
+      "popularity": 65,
+      "discount": {
+        "active": true,
+        "percentage": 25,
+        "validUntil": "2024-03-10"
+      },
+      "images": [
+        {
+          "url": "assets/images/treatments/haranalys-1.jpg",
+          "alt": "Håranalys med mikroskop"
+        }
+      ],
+      "stats": {
+        "bookingsLastMonth": 45,
+        "satisfactionRate": 97,
+        "repeatRate": 40,
+        "averageRating": 4.8
+      }
+    }
+  ],
+  "stylistLevels": {
+    "junior": {
+      "name": "Junior Frisör",
+      "description": "Nyutexaminerad eller under utbildning. Perfekt för enkla klippningar och grundläggande service.",
+      "minExperience": 0,
+      "maxExperience": 2,
+      "hourlyRate": 300,
+      "canHandle": ["express", "basic"]
+    },
+    "medium": {
+      "name": "Erfaren Frisör",
+      "description": "Erfaren frisör med god teknik. Hanterar de flesta standardklippningar och färgningar.",
+      "minExperience": 2,
+      "maxExperience": 5,
+      "hourlyRate": 450,
+      "canHandle": ["standard", "basic", "express"]
+    },
+    "senior": {
+      "name": "Senior Frisör",
+      "description": "Mycket erfaren med specialkompetens. Expert på avancerade klippningar och tekniker.",
+      "minExperience": 5,
+      "maxExperience": 10,
+      "hourlyRate": 650,
+      "canHandle": ["premium", "standard", "basic"]
+    },
+    "expert": {
+      "name": "Härexpert",
+      "description": "Toppexpert med specialisering. Hanterar de mest avancerade behandlingarna och utbildar andra.",
+      "minExperience": 10,
+      "maxExperience": null,
+      "hourlyRate": 850,
+      "canHandle": ["all"]
+    }
+  },
+  "priceRanges": {
+    "budget": {
+      "name": "Budget",
+      "min": 0,
+      "max": 299,
+      "description": "Prisvärda alternativ för vardagen",
+      "color": "neon-green"
+    },
+    "medium": {
+      "name": "Medium",
+      "min": 300,
+      "max": 599,
+      "description": "Balanserat pris för bra kvalitet",
+      "color": "neon-cyan"
+    },
+    "premium": {
+      "name": "Premium",
+      "min": 600,
+      "max": 999,
+      "description": "Hög kvalitet med extra service",
+      "color": "neon-blue"
+    },
+    "luxury": {
+      "name": "Luxury",
+      "min": 1000,
+      "max": null,
+      "description": "Exklusiva behandlingar med toppexperter",
+      "color": "neon-purple"
+    }
+  },
+  "durationRanges": {
+    "express": {
+      "name": "Express",
+      "min": 0,
+      "max": 25,
+      "description": "Snabba behandlingar",
+      "icon": "fas fa-bolt"
+    },
+    "standard": {
+      "name": "Standard",
+      "min": 26,
+      "max": 45,
+      "description": "Normal behandlingstid",
+      "icon": "fas fa-clock"
+    },
+    "extended": {
+      "name": "Extended",
+      "min": 46,
+      "max": 90,
+      "description": "Längre behandlingar",
+      "icon": "fas fa-hourglass-half"
+    },
+    "full": {
+      "name": "Full",
+      "min": 91,
+      "max": null,
+      "description": "Omfattande behandlingar",
+      "icon": "fas fa-spa"
+    }
+  },
+  "meta": {
+    "totalTreatments": 10,
+    "totalCategories": 7,
+    "averagePrice": 528,
+    "averageDuration": 52,
+    "lastUpdated": "2024-01-15T11:45:00Z",
+    "version": "1.0.0"
+  }
+}

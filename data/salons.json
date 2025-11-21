@@ -1,0 +1,886 @@
+{
+  "salons": [
+    {
+      "id": 1,
+      "name": "Neon Cut Studio",
+      "slug": "neon-cut-studio",
+      "type": "premium",
+      "rating": 4.9,
+      "reviewCount": 247,
+      "distance": 0.8,
+      "priceRange": "premium",
+      "availableNow": true,
+      "nextAvailable": "14:30",
+      "waitTime": "15 min",
+      "image": "assets/images/salons/neon-cut-studio.jpg",
+      "logo": "assets/images/salons/neon-cut-logo.png",
+      "description": "Premium frisörsalong med futuristisk neon-design. Specialiserade på moderna klippningar och färgningar med högsta kvalitet.",
+      "shortDescription": "Futuristisk premium salong med neon-design",
+      "address": {
+        "street": "Drottninggatan 12",
+        "city": "Stockholm",
+        "postalCode": "111 51",
+        "country": "Sverige",
+        "coordinates": {
+          "lat": 59.3303,
+          "lng": 18.0686
+        }
+      },
+      "contact": {
+        "phone": "+46 8 123 45 67",
+        "email": "info@neoncutstudio.se",
+        "website": "https://neoncutstudio.se",
+        "instagram": "@neoncutstudio"
+      },
+      "openingHours": [
+        {
+          "day": "monday",
+          "name": "Måndag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "tuesday",
+          "name": "Tisdag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "wednesday",
+          "name": "Onsdag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "thursday",
+          "name": "Torsdag",
+          "hours": "09:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "friday",
+          "name": "Fredag",
+          "hours": "09:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "saturday",
+          "name": "Lördag",
+          "hours": "10:00 - 16:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "sunday",
+          "name": "Söndag",
+          "hours": "Stängt",
+          "open": false,
+          "special": false
+        }
+      ],
+      "treatments": [
+        {
+          "id": 101,
+          "name": "Herrklippning Premium",
+          "slug": "herrklippning-premium",
+          "category": "herrklippning",
+          "price": 495,
+          "originalPrice": 595,
+          "duration": 45,
+          "description": "Premium herrklippning inklusive konsultation, tvätt, klippning, styling och eftervård.",
+          "features": ["Konsultation", "Hårtvätt", "Professionell klippning", "Styling", "Eftervårdsråd"],
+          "popular": true,
+          "discount": false
+        },
+        {
+          "id": 102,
+          "name": "Damklippning Luxury",
+          "slug": "damklippning-luxury",
+          "category": "damklippning",
+          "price": 795,
+          "originalPrice": 895,
+          "duration": 75,
+          "description": "Lyxig damklippning med djupgående håranalys, tvätt, klippning, styling och skyddande behandling.",
+          "features": ["Håranalys", "Luftfuktigande tvätt", "Precisionsklippning", "Professionell styling", "Skyddande behandling"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 103,
+          "name": "Fade Master",
+          "slug": "fade-master",
+          "category": "fade",
+          "price": 550,
+          "originalPrice": 650,
+          "duration": 50,
+          "description": "Perfekt fade med precision från skin fade till low fade. Inkluderar rakning och styling.",
+          "features": ["Precisionsfade", "Rakning", "Vax/styling", "Eftervård", "Gratis touch-up"],
+          "popular": true,
+          "discount": false
+        }
+      ],
+      "stylists": [
+        {
+          "id": 1001,
+          "name": "Marcus Lindgren",
+          "role": "Senior Frisör",
+          "specialty": ["Fade", "Herrklippning", "Skäggdesign"],
+          "experience": 8,
+          "rating": 4.9,
+          "image": "assets/images/stylists/marcus-lindgren.jpg",
+          "available": true,
+          "description": "Specialist på moderna herrklippningar och fade tekniker. Med över 8 års erfarenhet."
+        },
+        {
+          "id": 1002,
+          "name": "Emma Strömberg",
+          "role": "Color Specialist",
+          "specialty": ["Färgning", "Balayage", "Damklippning"],
+          "experience": 10,
+          "rating": 5.0,
+          "image": "assets/images/stylists/emma-strömberg.jpg",
+          "available": true,
+          "description": "Färgexpert med internationell erfarenhet. Specialiserad på balayage och naturliga färgövergångar."
+        }
+      ],
+      "features": [
+        "Premium produkter",
+        "Gratis dryck",
+        "Wi-Fi",
+        "Bokningsbekräftelse",
+        "Betalning med kort",
+        "Tillgänglighet",
+        "Parkering i närheten"
+      ],
+      "images": [
+        {
+          "url": "assets/images/salons/neon-cut-interior-1.jpg",
+          "alt": "Neon Cut Studio interiör",
+          "type": "interior"
+        },
+        {
+          "url": "assets/images/salons/neon-cut-interior-2.jpg",
+          "alt": "Neon Cut Studio arbetsstation",
+          "type": "interior"
+        },
+        {
+          "url": "assets/images/salons/neon-cut-work-1.jpg",
+          "alt": "Exempel på klippning",
+          "type": "work"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 5001,
+          "customerName": "Alexander Berg",
+          "customerImage": "assets/images/customers/alexander-berg.jpg",
+          "rating": 5,
+          "title": "Bästa fade:n i Stockholm!",
+          "comment": "Marcus är en riktig konstnär. Perfekt fade varje gång och supertrevlig personal. Salongen har en grym stämning med neon-ljusen.",
+          "date": "2024-01-15",
+          "treatment": "Fade Master",
+          "stylist": "Marcus Lindgren",
+          "verified": true
+        },
+        {
+          "id": 5002,
+          "customerName": "Sara Nilsson",
+          "customerImage": "assets/images/customers/sara-nilsson.jpg",
+          "rating": 5,
+          "title": "Otrolig färgexpert!",
+          "comment": "Emma är magisk med färg! Hon lyckades ge mig exakt den balayage jag drömt om. Supernöjd och kommer definitivt tillbaka.",
+          "date": "2024-01-12",
+          "treatment": "Damklippning Luxury",
+          "stylist": "Emma Strömberg",
+          "verified": true
+        }
+      ],
+      "stats": {
+        "totalBookings": 1247,
+        "repeatCustomers": 68,
+        "responseTime": "15 min",
+        "satisfactionRate": 98
+      },
+      "homeService": {
+        "available": true,
+        "priceMultiplier": 1.3,
+        "minOrder": 500,
+        "travelFee": 100,
+        "maxDistance": 20,
+        "availableTimes": ["10:00-12:00", "13:00-15:00", "16:00-18:00"]
+      },
+      "premium": {
+        "isPremium": true,
+        "level": "gold",
+        "since": "2023-03-15",
+        "features": ["Toppplacering", "Förstasidesvisning", "Premium support", "Avancerad statistik"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Urban Fade Barbers",
+      "slug": "urban-fade-barbers",
+      "type": "barbershop",
+      "rating": 4.7,
+      "reviewCount": 183,
+      "distance": 1.2,
+      "priceRange": "medium",
+      "availableNow": true,
+      "nextAvailable": "14:45",
+      "waitTime": "10 min",
+      "image": "assets/images/salons/urban-fade-barbers.jpg",
+      "logo": "assets/images/salons/urban-fade-logo.png",
+      "description": "Autentisk barbershop med fokus på herrklippning och traditionell skäggvård. Urban atmosfär med modern twist.",
+      "shortDescription": "Autentisk barbershop för herrklippning",
+      "address": {
+        "street": "Sveavägen 45",
+        "city": "Stockholm",
+        "postalCode": "113 59",
+        "country": "Sverige",
+        "coordinates": {
+          "lat": 59.3384,
+          "lng": 18.0627
+        }
+      },
+      "contact": {
+        "phone": "+46 8 765 43 21",
+        "email": "boka@urbanfade.se",
+        "website": "https://urbanfade.se",
+        "instagram": "@urbanfadebarbers"
+      },
+      "openingHours": [
+        {
+          "day": "monday",
+          "name": "Måndag",
+          "hours": "10:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "tuesday",
+          "name": "Tisdag",
+          "hours": "10:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "wednesday",
+          "name": "Onsdag",
+          "hours": "10:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "thursday",
+          "name": "Torsdag",
+          "hours": "10:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "friday",
+          "name": "Fredag",
+          "hours": "10:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "saturday",
+          "name": "Lördag",
+          "hours": "10:00 - 16:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "sunday",
+          "name": "Söndag",
+          "hours": "Stängt",
+          "open": false,
+          "special": false
+        }
+      ],
+      "treatments": [
+        {
+          "id": 201,
+          "name": "Herrklippning Standard",
+          "slug": "herrklippning-standard",
+          "category": "herrklippning",
+          "price": 350,
+          "originalPrice": 395,
+          "duration": 35,
+          "description": "Professionell herrklippning inklusive konsultation, tvätt, klippning och enkel styling.",
+          "features": ["Konsultation", "Hårtvätt", "Klippning", "Enkel styling"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 202,
+          "name": "Fade & Skägg",
+          "slug": "fade-skagg",
+          "category": "fade",
+          "price": 450,
+          "originalPrice": 500,
+          "duration": 45,
+          "description": "Komplett behandling med fade klippning och skäggtrimning inklusive varm handduk och after-shave.",
+          "features": ["Fade klippning", "Skäggtrimning", "Varm handduk", "After-shave", "Styling"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 203,
+          "name": "Express Klippning",
+          "slug": "express-klippning",
+          "category": "herrklippning",
+          "price": 250,
+          "originalPrice": 250,
+          "duration": 20,
+          "description": "Snab klippning för den med ont om tid. Perfekt för underhåll mellan större klippningar.",
+          "features": ["Konsultation", "Snabb klippning", "Enkel styling"],
+          "popular": false,
+          "discount": false
+        }
+      ],
+      "stylists": [
+        {
+          "id": 2001,
+          "name": "David Andersson",
+          "role": "Barber",
+          "specialty": ["Fade", "Skäggdesign", "Klassisk klippning"],
+          "experience": 6,
+          "rating": 4.8,
+          "image": "assets/images/stylists/david-andersson.jpg",
+          "available": true,
+          "description": "Passionerad barber med fokus på detaljer och precision. Expert på fade och skäggdesign."
+        },
+        {
+          "id": 2002,
+          "name": "Oscar Nilsson",
+          "role": "Barber",
+          "specialty": ["Modern klippning", "Fade", "Herrupplärning"],
+          "experience": 4,
+          "rating": 4.6,
+          "image": "assets/images/stylists/oscar-nilsson.jpg",
+          "available": false,
+          "description": "Ung och talangfull barber med fokus på moderna trender och kundundervisning."
+        }
+      ],
+      "features": [
+        "Autentisk barbershop",
+        "Skäggvård",
+        "Gratis kaffe",
+        "Walk-ins välkomna",
+        "Betalning med kort"
+      ],
+      "images": [
+        {
+          "url": "assets/images/salons/urban-fade-interior-1.jpg",
+          "alt": "Urban Fade Barbers interiör",
+          "type": "interior"
+        },
+        {
+          "url": "assets/images/salons/urban-fade-work-1.jpg",
+          "alt": "Exempel på fade klippning",
+          "type": "work"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 5003,
+          "customerName": "Mohamed Hassan",
+          "customerImage": "assets/images/customers/mohamed-hassan.jpg",
+          "rating": 5,
+          "title": "Perfekt fade varje gång!",
+          "comment": "David är en riktig mästare på fade. Alltid nöjd och priset är väldigt bra för kvaliteten man får.",
+          "date": "2024-01-14",
+          "treatment": "Fade & Skägg",
+          "stylist": "David Andersson",
+          "verified": true
+        },
+        {
+          "id": 5004,
+          "customerName": "Erik Johansson",
+          "customerImage": "assets/images/customers/erik-johansson.jpg",
+          "rating": 4,
+          "title": "Bra kvalitet för priset",
+          "comment": "Trevlig personal och bra klippning. Lite väntetid ibland men det är värt det för kvaliteten.",
+          "date": "2024-01-10",
+          "treatment": "Herrklippning Standard",
+          "stylist": "Oscar Nilsson",
+          "verified": true
+        }
+      ],
+      "stats": {
+        "totalBookings": 892,
+        "repeatCustomers": 55,
+        "responseTime": "20 min",
+        "satisfactionRate": 95
+      },
+      "homeService": {
+        "available": false,
+        "priceMultiplier": null,
+        "minOrder": null,
+        "travelFee": null,
+        "maxDistance": null,
+        "availableTimes": []
+      },
+      "premium": {
+        "isPremium": false,
+        "level": "basic",
+        "since": null,
+        "features": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hair Lab Stockholm",
+      "slug": "hair-lab-stockholm",
+      "type": "salon",
+      "rating": 4.8,
+      "reviewCount": 312,
+      "distance": 2.1,
+      "priceRange": "premium",
+      "availableNow": false,
+      "nextAvailable": "15:30",
+      "waitTime": "45 min",
+      "image": "assets/images/salons/hair-lab-stockholm.jpg",
+      "logo": "assets/images/salons/hair-lab-logo.png",
+      "description": "Innovativ hårstudio med fokus på vetenskapliga metoder och skräddarsydda lösningar. För den som vill ha något extra.",
+      "shortDescription": "Innovativ hårstudio med vetenskapligt tillvägagångssätt",
+      "address": {
+        "street": "Birger Jarlsgatan 32",
+        "city": "Stockholm",
+        "postalCode": "114 29",
+        "country": "Sverige",
+        "coordinates": {
+          "lat": 59.3345,
+          "lng": 18.0732
+        }
+      },
+      "contact": {
+        "phone": "+46 8 456 78 90",
+        "email": "info@hairlabstockholm.se",
+        "website": "https://hairlabstockholm.se",
+        "instagram": "@hairlabsthlm"
+      },
+      "openingHours": [
+        {
+          "day": "monday",
+          "name": "Måndag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "tuesday",
+          "name": "Tisdag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "wednesday",
+          "name": "Onsdag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "thursday",
+          "name": "Torsdag",
+          "hours": "09:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "friday",
+          "name": "Fredag",
+          "hours": "09:00 - 19:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "saturday",
+          "name": "Lördag",
+          "hours": "10:00 - 16:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "sunday",
+          "name": "Söndag",
+          "hours": "11:00 - 15:00",
+          "open": true,
+          "special": true
+        }
+      ],
+      "treatments": [
+        {
+          "id": 301,
+          "name": "Håranalys & Konsultation",
+          "slug": "haranalys-konsultation",
+          "category": "konsultation",
+          "price": 295,
+          "originalPrice": 395,
+          "duration": 30,
+          "description": "Djupgående håranalys med mikroskop och professionell konsultation för optimal hårvård.",
+          "features": ["Mikroskopanalys", "Hälsokontroll", "Personlig rådgivning", "Behandlingsplan"],
+          "popular": false,
+          "discount": true
+        },
+        {
+          "id": 302,
+          "name": "Damklippning Expert",
+          "slug": "damklippning-expert",
+          "category": "damklippning",
+          "price": 650,
+          "originalPrice": 750,
+          "duration": 60,
+          "description": "Expertklippning baserad på håranalys. Inkluderar tvätt, behandling och professionell styling.",
+          "features": ["Håranalys", "Skräddarsydd klippning", "Luftfuktigande behandling", "Professionell styling"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 303,
+          "name": "Balayage Master",
+          "slug": "balayage-master",
+          "category": "fargning",
+          "price": 1295,
+          "originalPrice": 1495,
+          "duration": 120,
+          "description": "Avancerad balayage teknik för naturliga och dimensionella resultat. Inkluderar olaplex behandling.",
+          "features": ["Balayage teknik", "Olaplex behandling", "Färgskydd", "Eftervårdsprodukter"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 304,
+          "name": "Herrklippning Precision",
+          "slug": "herrklippning-precision",
+          "category": "herrklippning",
+          "price": 450,
+          "originalPrice": 450,
+          "duration": 40,
+          "description": "Precisionsklippning baserad på ansiktsform och hårtyp. Inkluderar stylingråd och eftervård.",
+          "features": ["Ansiktsformsanalys", "Precisionsklippning", "Stylingråd", "Eftervårdsprodukter"],
+          "popular": true,
+          "discount": false
+        }
+      ],
+      "stylists": [
+        {
+          "id": 3001,
+          "name": "Lisa Chen",
+          "role": "Hår Expert",
+          "specialty": ["Håranalys", "Damklippning", "Färgteknik"],
+          "experience": 12,
+          "rating": 4.9,
+          "image": "assets/images/stylists/lisa-chen.jpg",
+          "available": true,
+          "description": "Härexpert med bakgrund i trichologi. Specialiserad på håranalys och skräddarsydda lösningar."
+        },
+        {
+          "id": 3002,
+          "name": "Anders Wikström",
+          "role": "Color Director",
+          "specialty": ["Balayage", "Färgkorrigering", "Creative color"],
+          "experience": 15,
+          "rating": 5.0,
+          "image": "assets/images/stylists/anders-wikstrom.jpg",
+          "available": true,
+          "description": "Internationellt erkänd färgexpert. Vinnare av Nordic Hair Award 2022."
+        }
+      ],
+      "features": [
+        "Vetenskaplig håranalys",
+        "Premium produkter",
+        "Olaplex behandling",
+        "Personlig konsultation",
+        "Digital journal",
+        "Uppföljning"
+      ],
+      "images": [
+        {
+          "url": "assets/images/salons/hair-lab-interior-1.jpg",
+          "alt": "Hair Lab Stockholm interiör",
+          "type": "interior"
+        },
+        {
+          "url": "assets/images/salons/hair-lab-analysis-1.jpg",
+          "alt": "Håranalys med mikroskop",
+          "type": "work"
+        },
+        {
+          "url": "assets/images/salons/hair-lab-work-1.jpg",
+          "alt": "Exempel på balayage",
+          "type": "work"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 5005,
+          "customerName": "Jenny Karlsson",
+          "customerImage": "assets/images/customers/jenny-karlsson.jpg",
+          "rating": 5,
+          "title": "Revolutionerande hårvård!",
+          "comment": "Lisa's håranalys förändrade mitt hår helt. Första gången jag förstår vad mitt hår verkligen behöver. Otroligt professionellt!",
+          "date": "2024-01-13",
+          "treatment": "Håranalys & Konsultation",
+          "stylist": "Lisa Chen",
+          "verified": true
+        },
+        {
+          "id": 5006,
+          "customerName": "Mikael Öberg",
+          "customerImage": "assets/images/customers/mikael-oberg.jpg",
+          "rating": 5,
+          "title": "Bästa klippningen i mitt liv",
+          "comment": "Anders är en riktig konstnär. Balayagen ser så naturlig ut och håret känns så friskt. Värt varenda krona!",
+          "date": "2024-01-11",
+          "treatment": "Balayage Master",
+          "stylist": "Anders Wikström",
+          "verified": true
+        }
+      ],
+      "stats": {
+        "totalBookings": 1567,
+        "repeatCustomers": 72,
+        "responseTime": "10 min",
+        "satisfactionRate": 99
+      },
+      "homeService": {
+        "available": true,
+        "priceMultiplier": 1.5,
+        "minOrder": 800,
+        "travelFee": 150,
+        "maxDistance": 15,
+        "availableTimes": ["11:00-13:00", "14:00-16:00"]
+      },
+      "premium": {
+        "isPremium": true,
+        "level": "platinum",
+        "since": "2023-01-10",
+        "features": ["Toppplacering", "Förstasidesvisning", "Premium support", "Avancerad statistik", "Reklamkampanjer"]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Express Cut Center",
+      "slug": "express-cut-center",
+      "type": "salon",
+      "rating": 4.3,
+      "reviewCount": 89,
+      "distance": 0.5,
+      "priceRange": "budget",
+      "availableNow": true,
+      "nextAvailable": "14:15",
+      "waitTime": "5 min",
+      "image": "assets/images/salons/express-cut-center.jpg",
+      "logo": "assets/images/salons/express-cut-logo.png",
+      "description": "Snabb och prisvärd frisörservice för vardagsklippningar. Perfekt för drop-in och akuta klippningar.",
+      "shortDescription": "Snabb och prisvärd frisörservice",
+      "address": {
+        "street": "Kungsgatan 8",
+        "city": "Stockholm",
+        "postalCode": "111 43",
+        "country": "Sverige",
+        "coordinates": {
+          "lat": 59.3321,
+          "lng": 18.0618
+        }
+      },
+      "contact": {
+        "phone": "+46 8 987 65 43",
+        "email": "express@expresscut.se",
+        "website": "https://expresscut.se",
+        "instagram": "@expresscutcenter"
+      },
+      "openingHours": [
+        {
+          "day": "monday",
+          "name": "Måndag",
+          "hours": "08:00 - 20:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "tuesday",
+          "name": "Tisdag",
+          "hours": "08:00 - 20:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "wednesday",
+          "name": "Onsdag",
+          "hours": "08:00 - 20:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "thursday",
+          "name": "Torsdag",
+          "hours": "08:00 - 20:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "friday",
+          "name": "Fredag",
+          "hours": "08:00 - 20:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "saturday",
+          "name": "Lördag",
+          "hours": "09:00 - 18:00",
+          "open": true,
+          "special": false
+        },
+        {
+          "day": "sunday",
+          "name": "Söndag",
+          "hours": "10:00 - 16:00",
+          "open": true,
+          "special": false
+        }
+      ],
+      "treatments": [
+        {
+          "id": 401,
+          "name": "Herrklippning Express",
+          "slug": "herrklippning-express",
+          "category": "herrklippning",
+          "price": 199,
+          "originalPrice": 199,
+          "duration": 20,
+          "description": "Snabb och effektiv herrklippning för vardagsbruk. Perfekt för drop-in.",
+          "features": ["Konsultation", "Klippning", "Enkel styling"],
+          "popular": true,
+          "discount": false
+        },
+        {
+          "id": 402,
+          "name": "Damklippning Basic",
+          "slug": "damklippning-basic",
+          "category": "damklippning",
+          "price": 249,
+          "originalPrice": 299,
+          "duration": 30,
+          "description": "Enkel damklippning för vardagsbruk. Inkluderar tvätt och enkel styling.",
+          "features": ["Konsultation", "Hårtvätt", "Klippning", "Enkel styling"],
+          "popular": true,
+          "discount": true
+        },
+        {
+          "id": 403,
+          "name": "Barnklippning",
+          "slug": "barnklippning",
+          "category": "barnklippning",
+          "price": 149,
+          "originalPrice": 149,
+          "duration": 15,
+          "description": "Snabb och trevlig klippning för barn. Barnvänlig miljö.",
+          "features": ["Barnvänlig miljö", "Snabb klippning", "Tålamod"],
+          "popular": false,
+          "discount": false
+        }
+      ],
+      "stylists": [
+        {
+          "id": 4001,
+          "name": "Anna Pettersson",
+          "role": "Frisör",
+          "specialty": ["Damklippning", "Barnklippning", "Express service"],
+          "experience": 5,
+          "rating": 4.5,
+          "image": "assets/images/stylists/anna-pettersson.jpg",
+          "available": true,
+          "description": "Effektiv och trevlig frisör med specialitet på snabba och prisvärda klippningar."
+        },
+        {
+          "id": 4002,
+          "name": "Robert Johansson",
+          "role": "Frisör",
+          "specialty": ["Herrklippning", "Express service", "Drop-in"],
+          "experience": 4,
+          "rating": 4.3,
+          "image": "assets/images/stylists/robert-johansson.jpg",
+          "available": true,
+          "description": "Snabb och noggrann frisör perfekt för expressklippningar och drop-in kunder."
+        }
+      ],
+      "features": [
+        "Drop-in välkomna",
+        "Kort väntetid",
+        "Prisvärd service",
+        "Långa öppettider",
+        "Betalning med kort"
+      ],
+      "images": [
+        {
+          "url": "assets/images/salons/express-cut-interior-1.jpg",
+          "alt": "Express Cut Center interiör",
+          "type": "interior"
+        }
+      ],
+      "reviews": [
+        {
+          "id": 5007,
+          "customerName": "Daniel Eriksson",
+          "customerImage": "assets/images/customers/daniel-eriksson.jpg",
+          "rating": 4,
+          "title": "Bra för priset",
+          "comment": "Perfekt när man behöver en snabb klippning. Bra kvalitet för priset och kort väntetid.",
+          "date": "2024-01-14",
+          "treatment": "Herrklippning Express",
+          "stylist": "Robert Johansson",
+          "verified": true
+        },
+        {
+          "id": 5008,
+          "customerName": "Maria Lind",
+          "customerImage": "assets/images/customers/maria-lind.jpg",
+          "rating": 5,
+          "title": "Super snabb och bra!",
+          "comment": "Anna är underbar! Fick en perfekt klippning på 20 minuter. Perfekt för vardagen.",
+          "date": "2024-01-12",
+          "treatment": "Damklippning Basic",
+          "stylist": "Anna Pettersson",
+          "verified": true
+        }
+      ],
+      "stats": {
+        "totalBookings": 567,
+        "repeatCustomers": 45,
+        "responseTime": "5 min",
+        "satisfactionRate": 92
+      },
+      "homeService": {
+        "available": false,
+        "priceMultiplier": null,
+        "minOrder": null,
+        "travelFee": null,
+        "maxDistance": null,
+        "availableTimes": []
+      },
+      "premium": {
+        "isPremium": false,
+        "level": "basic",
+        "since": null,
+        "features": []
+      }
+    }
+  ],
+  "meta": {
+    "totalCount": 4,
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "version": "1.0.0"
+  }
+}
